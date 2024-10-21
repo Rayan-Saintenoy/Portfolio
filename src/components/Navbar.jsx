@@ -34,10 +34,10 @@ export default function Navbar() {
           <div className="flex flex-col">
             <div className="flex items-center justify-between border-b-2 border-gray-300 p-2">
               <div className="justify-around">
-                <p className="text-5xl text-gray-600 lg:text-6xl">
+                <p className="text-3xl text-gray-600 md:text-4xl lg:text-5xl">
                   Rayan Saintenoy
                 </p>
-                <p className="text-3xl text-gray-500 lg:text-4xl">
+                <p className="text-2xl text-gray-500 md:text-3xl lg:text-4xl">
                   Étudiant en développement
                 </p>
               </div>
@@ -66,7 +66,7 @@ export default function Navbar() {
                       }}
                       className="text-2xl text-gray-500 no-underline hover:border-b-2 hover:border-gray-300 hover:transition-all"
                     >
-                      Mon Parcours
+                      Mes Projets
                     </a>
                   </li>
                   <li>
@@ -110,6 +110,7 @@ export default function Navbar() {
                       const aboutSection = document.getElementById("about");
 
                       aboutSection?.scrollIntoView({ behavior: "smooth" });
+                      setIsMenuOpen(false);
                     }}
                     className="w-full cursor-pointer list-none p-4 text-center text-gray-500 transition-all hover:bg-gray-500 hover:text-white"
                   >
@@ -123,11 +124,12 @@ export default function Navbar() {
                       const aboutSection = document.getElementById("parcours");
 
                       aboutSection?.scrollIntoView({ behavior: "smooth" });
+                      setIsMenuOpen(false);
                     }}
                     className="w-full cursor-pointer list-none p-4 text-center text-gray-500 transition-all hover:bg-gray-500 hover:text-white"
                   >
                     <a className="border-b-2 border-gray-400 text-2xl no-underline">
-                      Mon Parcours
+                      Mes Projets
                     </a>
                   </li>
                   <li
@@ -136,6 +138,7 @@ export default function Navbar() {
                         document.getElementById("technologie");
 
                       aboutSection?.scrollIntoView({ behavior: "smooth" });
+                      setIsMenuOpen(false);
                     }}
                     className="w-full cursor-pointer list-none p-4 text-center text-gray-500 transition-all hover:bg-gray-500 hover:text-white"
                   >
@@ -148,6 +151,7 @@ export default function Navbar() {
                       const aboutSection = document.getElementById("contact");
 
                       aboutSection?.scrollIntoView({ behavior: "smooth" });
+                      setIsMenuOpen(false);
                     }}
                     className="w-full cursor-pointer list-none p-4 text-center text-gray-500 transition-all hover:bg-gray-500 hover:text-white"
                   >
