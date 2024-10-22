@@ -8,34 +8,24 @@ export default function Projet() {
         Mes Projets :
       </p>
 
-      <div>
-        <div className="flex flex-col">
-          <div className="mx-4 mb-4 rounded-lg border">
-            <p className="text-1xl mb-2 text-center text-gray-500 md:text-2xl lg:text-3xl">
-              Portfolio
-            </p>
+      <div className="mx-4 mb-4 rounded-lg border border-gray-500">
+        <p className="mb-2 text-center text-2xl text-gray-500 lg:text-3xl">
+          Portfolio
+        </p>
 
-            <p className="text-1xl mb-5 text-center text-gray-500 md:text-2xl lg:text-3xl">
-              Mon premier projet est ce portfolio que j'ai réaliser sur deux
-              jours avec NextJs et TailWindCSS. Cela m'as apporter beaucoup
-              étant donné que je n'avez jamais utiliser ses Technologie
-              auparavant
-            </p>
-            <div className="flex justify-center">
-              <a href="https://github.com/Rayan-Saintenoy/Portfolio">
-                <Image
-                  src={GitHubLogo}
-                  alt="GitHub logo"
-                  width={40}
-                  height={40}
-                />
-              </a>
-            </div>
-          </div>
+        <p className="text-1xl mb-5 text-center text-gray-500 md:text-2xl lg:text-3xl">
+          Mon premier projet est ce portfolio que j'ai réaliser sur deux jours
+          avec NextJs et TailWindCSS. Cela m'as apporter beaucoup étant donné
+          que je n'avez jamais utiliser ses Technologie auparavant
+        </p>
+        <div className="flex justify-center">
+          <a href="https://github.com/Rayan-Saintenoy/Portfolio">
+            <Image src={GitHubLogo} alt="GitHub logo" width={40} height={40} />
+          </a>
         </div>
       </div>
 
-      <div className="mx-4 mb-4 rounded-lg border">
+      <div className="mx-4 mb-4 rounded-lg border border-gray-500">
         <p className="mb-2 text-center text-2xl text-gray-500 lg:text-3xl">
           Jobboard
         </p>
