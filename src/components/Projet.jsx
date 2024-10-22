@@ -10,10 +10,11 @@ export default function Projet() {
 
       <div>
         <div className="flex flex-col">
-          <p className="text-1xl mb-2 text-center text-gray-500 md:text-2xl lg:text-3xl">
-            Portfolio
-          </p>
           <div className="mx-4 mb-4 rounded-lg border">
+            <p className="text-1xl mb-2 text-center text-gray-500 md:text-2xl lg:text-3xl">
+              Portfolio
+            </p>
+
             <p className="text-1xl mb-5 text-center text-gray-500 md:text-2xl lg:text-3xl">
               Mon premier projet est ce portfolio que j'ai réaliser sur deux
               jours avec NextJs et TailWindCSS. Cela m'as apporter beaucoup
